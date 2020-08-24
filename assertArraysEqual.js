@@ -1,3 +1,4 @@
+
 const assertArraysEqual = function(actual, expected) {
   // return true/false comparing two arrays and their values
   let matches = true;
@@ -8,12 +9,12 @@ const assertArraysEqual = function(actual, expected) {
     if (actual[i] !== expected[i]) matches = false;
   }
   if (matches) {
-    console.log(`Does Match: ${actual} !== ${expected}`);
+    console.log(`Does Match: ${actual} === ${expected}`);
   } else {
     console.log(`Doesn\'t Match: ${actual} !== ${expected}`);
   }
+  
 };
 
-assertArraysEqual([1, '2', 3], [1, '2', 3]);
-assertArraysEqual([1, 2, 3], [1, '2', 3]);
-assertArraysEqual([1, 2, 3], [1, 2, 3]);
+module.exports = assertArraysEqual;
+
