@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@sociajl/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide library",
   "main": "main.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/SociaJL/lotide.git"
   },
-  "author": "",
+  "author": "SociaJL",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SociaJL/lotide/issues"
